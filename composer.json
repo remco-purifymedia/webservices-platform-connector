@@ -41,7 +41,6 @@
     "league/factory-muffin": "*",
     "friendsofphp/php-cs-fixer": "*",
     "sensiolabs/security-checker": "*",
-    "roave/security-advisories": "*",
     "squizlabs/php_codesniffer": "*"
   },
   "autoload": {
