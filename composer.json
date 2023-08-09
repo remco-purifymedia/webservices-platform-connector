@@ -35,14 +35,14 @@
     "roave/security-advisories": "dev-latest"
   },
   "require-dev": {
-    "phpunit/phpunit": "^5",
-    "mockery/mockery": "^0.9",
-    "monolog/monolog": "^1.18",
-    "league/factory-muffin": "^2",
-    "friendsofphp/php-cs-fixer": "^2 || ^3",
-    "sensiolabs/security-checker": "^5",
-    "roave/security-advisories": "dev-latest",
-    "squizlabs/php_codesniffer": "^2"
+    "phpunit/phpunit": "*",
+    "mockery/mockery": "*",
+    "monolog/monolog": "*",
+    "league/factory-muffin": "*",
+    "friendsofphp/php-cs-fixer": "*",
+    "sensiolabs/security-checker": "*",
+    "roave/security-advisories": "*",
+    "squizlabs/php_codesniffer": "*"
   },
   "autoload": {
     "psr-4": {
