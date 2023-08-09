@@ -31,8 +31,7 @@
     "guzzlehttp/guzzle": "*",
     "psr/log": "*",
     "pfm_webservices_nl/common": "*",
-    "pfm_webservices_nl/utils": "*",
-    "roave/security-advisories": "*"
+    "pfm_webservices_nl/utils": "*"
   },
   "require-dev": {
     "phpunit/phpunit": "*",
