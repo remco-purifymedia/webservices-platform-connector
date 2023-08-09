@@ -1,5 +1,5 @@
 {
-  "name": "webservices-nl/platform-connector",
+  "name": "pfm_webservices_nl/platform-connector",
   "description": "platform connector generator for Webservices.nl",
   "keywords": [
     "soap",
@@ -24,14 +24,14 @@
   ],
   "prefer-stable": true,
   "require": {
-    "php": "^5.6 || ^7 || ^8",
+    "php": "*",
     "ext-soap": "*",
     "ext-xml": "*",
     "ext-dom": "*",
-    "guzzlehttp/guzzle": "^6 || ^7.0.1",
-    "psr/log": "^1.0",
-    "webservices-nl/common": "^0",
-    "webservices-nl/utils": "^1",
+    "guzzlehttp/guzzle": "*",
+    "psr/log": "*",
+    "pfm_webservices_nl/common": "*",
+    "pfm_webservices_nl/utils": "*",
     "roave/security-advisories": "dev-latest"
   },
   "require-dev": {
