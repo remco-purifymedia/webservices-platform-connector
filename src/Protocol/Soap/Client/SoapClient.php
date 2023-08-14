@@ -362,7 +362,7 @@ class SoapClient extends \SoapClient implements ClientInterface
             dump($function_name);
             dump($arguments);
             dump($options);
-            dd($input_headers);
+            dump($input_headers);
             return parent::__soapCall($function_name, $arguments, $options, $input_headers, $output_headers);
         } catch (\SoapFault $fault) {
             if ($this->getConverter() !== null) {
